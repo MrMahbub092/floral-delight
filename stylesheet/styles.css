@@ -7,6 +7,7 @@ body{
   font-family: 'Heebo', sans-serif;
   color:#eee7e7;
 }
+
 /* Common Shared Styles
 ========================= */
 .primary-container{
@@ -14,12 +15,14 @@ body{
   margin:128px 11vw;
   text-align: center;
 }
+
 .primary-title{
-color: #272727;
-font-size: 35px;
-font-weight:bold;
-text-align: center;
+  color: #272727;
+  font-size: 35px;
+  font-weight:bold;
+  text-align: center;
 }
+
 .primary-description{
   color: #27272799;
   font-size: 18px;
@@ -28,6 +31,7 @@ text-align: center;
   text-align: center;
 }
 
+
 /* Header Section
 ===================== */
 .header{
@@ -35,7 +39,8 @@ text-align: center;
   background-color: #0597a026;
 }
 
-/* Navigation Section */
+/* Navigation Section 
+-------------------------*/
 .navbar{
   display:flex;
   padding: 20px 140px;
@@ -43,33 +48,36 @@ text-align: center;
   align-items:center;
   background: #f1f1f1;;
 }
+
 .shop-name{
-color:rgb(27, 26, 26);
-font-size: 3rem;
-font-weight: 800;
+  color:rgb(27, 26, 26);
+  font-size: 3rem;
+  font-weight: 800;
 }
+
 nav ul{
   display:flex;
   flex-direction: row-reverse;
   justify-content:space-between;
   align-items: center;
 }
+
 nav ul li{
   list-style: none;
   margin-right: 20px;
 }
+
 li a{
   text-decoration: none;
   font-size: 1.2rem;
   color:#252323;
-  /* padding:5px 8px;
-  border-radius: 5px; */
 }
+
 li a:hover{
-  /* background-color: #a7216226; */
   color: #df617e;
   text-decoration: underline;
 }
+
 /* Banner Section
 --------------------- */
 .hero{
@@ -81,27 +89,32 @@ li a:hover{
   width:100vw;
   padding:10vh 140px 0;
 }
+
 .hero-img{
  height:90vh;
  width:40%;
 }
+
 .hero-text{
   max-width: 50%;
 }
+
 .hero-title{
   color: #272727;
-font-size: 65px;
-font-weight: 700;
-line-height: 75px;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 75px;
 }
+
 .hero-description{
   color: rgba(54, 53, 53, 0.6);
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-margin-top:30px;
-text-align: justify;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top:30px;
+  text-align: justify;
 }
+
 .hero-btn{
   background: #E55473;
   color:rgb(241, 237, 237);
@@ -123,10 +136,6 @@ text-align: justify;
   display:flex;
   justify-content:space-between;
   align-items: center;
-
-}
-.feature-card{
-
 }
 .card-photo{
   width:330px;
@@ -138,6 +147,7 @@ text-align: justify;
   width:210px;
   height:275px;
 }
+
 #card1{
   background-color: rgba(219, 129, 129, 0.2);
 }
@@ -147,15 +157,17 @@ text-align: justify;
 #card3{
   background-color: rgb(255, 200, 209);
 }
+
 .feature-card a{
   font-size:1.2rem;
   color: #272727;
   font-weight:bold;
-
 }
+
 .feature-card a:hover{
   color:#A60027;
 }
+
 /* Flash Sale Section 
 -----------------------*/
 .offer-container{
@@ -171,11 +183,13 @@ text-align: justify;
   width:42vw;
   text-align: center;
 }
+
 .offer-title{
   color: #272727;
 font-size: 30px;
 font-weight:bold;
 }
+
 .offer-btn{
   background: #A60027;
   color:rgb(241, 237, 237);
@@ -184,32 +198,36 @@ font-weight:bold;
   border-radius: 5px;
   border:none;
 }
+
 .offer-btn:hover{
   background: rgba(185, 180, 181, 0.6);
   border:1px solid #A60027;
 }
+
 .offer-img{
   width:20vw;
 }
+
 /* Product Section
-======================== */
+---------------------- */
 .product-container{
   max-width:100vw;
   margin:128px 11%;
 }
+
 .product-text{
  text-align: center;
 }
+
 .product-cards{
-  display:flex;
- 
   display: flex;
   justify-content:space-between;
 }
+
 .product-img{
   width:23.5%;
- 
 }
+
 .product-img:hover{
   border:2px solid rgb(57, 119, 233);
 }
@@ -224,24 +242,29 @@ font-weight:bold;
   justify-content: space-between;
   border-radius: 10px;
 }
+
 .delivery-contents{
   display:flex;
   flex-direction: column;
   align-items: center;
   max-width:30%;
 }
+
 .delivery-contents img{
   width:70px;
   height:70px;
   margin-bottom: 15px;
 }
+
 .delivery-contents a{
   color:rgb(8, 8, 8);
   text-decoration: none;
 }
+
 .delivery-contents a:hover{
   color:#631224;
 }
+
 /* Latest Deal Section */
 .latest-deal{
   background: url("../images/Rectangle9.png");
@@ -250,6 +273,7 @@ font-weight:bold;
   text-align: center;
   padding:70px 0 110px;
 }
+
 .subscription-form{
   width:45%;
   padding:12px 20px;
@@ -257,9 +281,11 @@ font-weight:bold;
   border-radius: 8px;
   font-size: 18px;
 }
+
 .subscription{
   margin-top:30px;
 }
+
 .subscription-btn{
   background: #A60027;
   color:rgb(241, 237, 237);
@@ -269,10 +295,12 @@ font-weight:bold;
   border:none;
   margin-left: 20px;
 }
+
 .subscription-btn:hover{
   background: rgb(224, 213, 213);
   border: 1px solid #A60027;
 }
+
 /* Contact Section
 ---------------------- */
 .contact{
@@ -281,9 +309,11 @@ font-weight:bold;
   padding:50px 11% 100px;
   text-align: center;
 }
+
 .contact-header{
   font-size: 45px;
 }
+
 .contact-contents{
  display: flex;
  justify-content: space-around;
@@ -291,15 +321,18 @@ font-weight:bold;
  align-items: center;
  padding-top:40px;
 }
+
 .contact-form{
   width:40%;
   text-align: left;
 }
+
 .contact-form label{
   display: block;
   margin-bottom:20px;
   font-size:20px;
 }
+
 .contact-form input, textarea{
   width:100%;
   padding:10px 15px;
@@ -307,6 +340,7 @@ font-weight:bold;
   font-size:16px;
   border-radius: 7px;
 }
+
 #submit-button{
   width:60%;
   margin:0 15% 0 20%;
@@ -316,18 +350,23 @@ font-weight:bold;
   font-size: 20px;
   border:none;
 }
+
 #submit-button:hover{
   background-color: white;
   border: 1px solid #E55473;
   color:black;
 }
+
 .details{
   max-width: 40%;
 }
+
 .details-header{
   font-size: 35px;
   margin-bottom:30px;
 }
+
+
 /* Footer Section
 ==================== */
 .footer{
@@ -336,15 +375,18 @@ font-weight:bold;
   text-align: center;
   padding:150px 30vw;
 }
+
 .footer-title{
-font-size: 45px;
-font-weight: 700;
+  font-size: 45px;
+  font-weight: 700;
 }
+
 .footer-description{
-font-size: 18px;
-line-height: 30px;
-padding:24px 0;
+  font-size: 18px;
+  line-height: 30px;
+  padding:24px 0;
 }
+
 #copyright{
   color: rgba(255, 255, 255, 0.30);
   font-size: 16px;
