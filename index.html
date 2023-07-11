@@ -16,7 +16,6 @@
   ======================= -->
   <link rel="stylesheet" href="./stylesheet/styles.css">
 </head>
-
 <body>
   <!-- Header Section
 ====================== -->
@@ -29,7 +28,7 @@
         <li><a href="#feature">Feature</a></li>
         <li><a href="#shop">Shop</a></li>
         <li><a href="#offer">Flash Sale</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
       </ul>
     </nav>
 
@@ -113,7 +112,25 @@
       </div>
     </section>
 
-    <!-- Latest Deals Section -->
+    <!-- Delivery Section 
+    --------------------------->
+    <section class="primary-container delivery-section">
+      <div class="delivery-contents">
+        <img src="./images/group57.png" alt="delivery man" class="delivery-icon">
+        <a href="#" class="delivery-link">Same Day Delivery. Click & collect.</a>
+      </div>
+      <div class="delivery-contents">
+        <img src="./images/group58.png" alt="delivery items" class="delivery-icon">
+        <a href="#" class="delivery-link">Fresh Flowers. Local Grovers.</a>
+      </div>
+      <div class="delivery-contents">
+        <img src="./images/group59.png" alt="delivery time" class="delivery-icon">
+        <a href="#" class="delivery-description">24/7 Free Support.</a>
+      </div>
+    </section>
+    
+    <!-- Latest Deals Section 
+    ------------------------------->
     <section class="primary-container latest-deal">
       <div class="deal-title">
         <h3 class="primary-title">
@@ -122,7 +139,7 @@
         <p class="primary-description">$30 coupon for first shopping</p>
         <div class="subscription">
           <label for="email">
-            <input type="email" id="email" name="email" placeholder="Write your email address here...">
+            <input type="email" id="email" name="email" placeholder="Write your email address here..." class="subscription-form">
           </label>
           <button class="subscription-btn">Subscribe</button>
         </div>
@@ -131,6 +148,31 @@
   </main>
   <!-- Footer Section
 ==================== -->
+<!-- Contact us section -->
+<span id="contact"></span>
+<section class="contact">
+  <h1 class="contact-header" id="contact us">Stay With Us </h1>
+  <div class="contact-contents">
+    <form class="contact-form">
+      <label for="name">Name: <br>
+        <input type="text" id="name" name="name" placeholder="Enter your full name here">
+      </label>
+      <label for="email">Email:<br>
+        <input type="email" id="email" name="email" placeholder="Enter your  email here">
+      </label>
+      <label for="message">Message:<br>
+        <textarea name="message" id="message" cols="20" rows="5" placeholder="Enter your message here..."></textarea>
+      </label>
+      <input id="submit-button" type="submit" value="Submit">
+    </form>
+    <div class="details">
+      <h2 class="details-header">We will remail you</h2>
+      <p class="details-description"> We usually try to reply you as soon as possible. You you have any query don't hesitate to knock us. Thank you very much.</p>
+      <div class="social-link">   
+      </div>
+    </div>
+  </div>
+</section>
   <footer class="footer">
     <h3 class="footer-title"><span style="color:#df617e">Floral</span>Delight</h3>
     <p class="footer-description">It is a long established fact that a reader will be distracted by the readable content

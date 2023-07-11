@@ -5,6 +5,7 @@
 }
 body{
   font-family: 'Heebo', sans-serif;
+  color:#eee7e7;
 }
 /* Common Shared Styles
 ========================= */
@@ -40,11 +41,10 @@ text-align: center;
   padding: 20px 140px;
   justify-content: space-between;
   align-items:center;
-  background: #111010;;
-  color:rgb(238, 231, 231);
+  background: #f1f1f1;;
 }
 .shop-name{
-  
+color:rgb(27, 26, 26);
 font-size: 3rem;
 font-weight: 800;
 }
@@ -61,7 +61,7 @@ nav ul li{
 li a{
   text-decoration: none;
   font-size: 1.2rem;
-  color:rgb(238, 231, 231);
+  color:#252323;
   /* padding:5px 8px;
   border-radius: 5px; */
 }
@@ -104,12 +104,16 @@ text-align: justify;
 }
 .hero-btn{
   background: #E55473;
-  color:white;
+  color:rgb(241, 237, 237);
   font-size: 20px;
   padding: 15px 30px;
    border-radius: 8px;
   border:none;
   margin-top: 28px;
+}
+.hero-btn:hover{
+  background: rgba(224, 214, 216, 0.6);
+  border:1px solid #E55473;
 }
 
 /* Main Section
@@ -174,11 +178,15 @@ font-weight:bold;
 }
 .offer-btn{
   background: #A60027;
-  color:white;
+  color:rgb(241, 237, 237);
   font-size: 20px;
   padding: 10px 20px;
   border-radius: 5px;
   border:none;
+}
+.offer-btn:hover{
+  background: rgba(185, 180, 181, 0.6);
+  border:1px solid #A60027;
 }
 .offer-img{
   width:20vw;
@@ -206,6 +214,34 @@ font-weight:bold;
   border:2px solid rgb(57, 119, 233);
 }
 
+/* Delivery Section
+------------------------ */
+.delivery-section{
+  background-color: rgba(71, 125, 17, 0.15);
+  padding: 70px 10%;
+  display:flex;
+  text-align: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.delivery-contents{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  max-width:30%;
+}
+.delivery-contents img{
+  width:70px;
+  height:70px;
+  margin-bottom: 15px;
+}
+.delivery-contents a{
+  color:rgb(8, 8, 8);
+  text-decoration: none;
+}
+.delivery-contents a:hover{
+  color:#631224;
+}
 /* Latest Deal Section */
 .latest-deal{
   background: url("../images/Rectangle9.png");
@@ -214,7 +250,7 @@ font-weight:bold;
   text-align: center;
   padding:70px 0 110px;
 }
-input{
+.subscription-form{
   width:45%;
   padding:12px 20px;
   border:none;
@@ -226,20 +262,77 @@ input{
 }
 .subscription-btn{
   background: #A60027;
-  color:white;
+  color:rgb(241, 237, 237);
   font-size: 20px;
   padding: 10px 20px;
   border-radius: 5px;
   border:none;
   margin-left: 20px;
 }
-
+.subscription-btn:hover{
+  background: rgb(224, 213, 213);
+  border: 1px solid #A60027;
+}
+/* Contact Section
+---------------------- */
+.contact{
+  width:100vw;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding:50px 11% 100px;
+  text-align: center;
+}
+.contact-header{
+  font-size: 45px;
+}
+.contact-contents{
+ display: flex;
+ justify-content: space-around;
+ gap: 5%;
+ align-items: center;
+ padding-top:40px;
+}
+.contact-form{
+  width:40%;
+  text-align: left;
+}
+.contact-form label{
+  display: block;
+  margin-bottom:20px;
+  font-size:20px;
+}
+.contact-form input, textarea{
+  width:100%;
+  padding:10px 15px;
+  margin-top:15px;
+  font-size:16px;
+  border-radius: 7px;
+}
+#submit-button{
+  width:60%;
+  margin:0 15% 0 20%;
+  border-radius: 5px;
+  background-color: #E55473;
+  color:white;
+  font-size: 20px;
+  border:none;
+}
+#submit-button:hover{
+  background-color: white;
+  border: 1px solid #E55473;
+  color:black;
+}
+.details{
+  max-width: 40%;
+}
+.details-header{
+  font-size: 35px;
+  margin-bottom:30px;
+}
 /* Footer Section
 ==================== */
 .footer{
   width:100vw;
   background:#111010;
-  color:rgba(255, 255, 255,90%);
   text-align: center;
   padding:150px 30vw;
 }
